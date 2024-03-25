@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    
+}
+
+.icons{
+ background: rgb(244,174,9);
+ background: linear-gradient(90deg, rgba(244,174,9,1) 4%, rgba(222,0,255,0.8743872549019608) 100%);
+ height: 30px;
+ display: flex;
+ padding: 0px 10px 0px 0px;
+}
+
+.icons .logo{
+    width: 40%;
+    margin: 5px 100px;
+}
+
+.icons .logo img{
+    padding-right: 5px;
+}
+.icons .contact{
+    width: 70%;
+    display: inline-flex;
+    margin-top: 4px;
+    float: right;
+    justify-content: end;
+    margin-right: 140px;
+}
+.icons .contact p{
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    padding-right: 3px;
+}
+.icons .contact img{
+    padding-right: 5px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.header .logo{
+    display: inline-flex;
+    width: 30%;
+}
+
+.header .logo img{
+    padding: 10px 15px 5px 93px;
+}
+
+.header .logo p{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.header .menu ul li{
+    float: left;
+    width: 110px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: white;
+    opacity: .9;
+    height: 60px;
+}
+
+.header .menu ul{
+    /* padding: 14px 0px 0px 0px; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.header .menu ul li:hover{
+    background-color: salmon;
+}
+
+.header .menu ul li ul li{
+    display: none;
+}
+
+.header .menu ul li:hover ul li{
+    display: block;
+}
+
+.header .menu{
+    display: inline-flex;
+    width: 50%;
+    float: right;
+    justify-content: end;
+}
+
+.header .buy{
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: rgb(248, 149, 35);
+    padding: 0px 5px 0px 5px;
+}
+
+.header .search{
+    background-color: black;
+    margin-left: 15px;
+    padding: 0px 5px;
+}
+
+.header .search img{
+    margin-top: 15px;
+}
+
+
+.banner{
+    background: url(../images/back4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    
+}
+
+.banner p{
+    margin: 0;
+}
+
+.banner .txt{
+    width: 40%;
+    padding: 100px;
+    font: 40px;
+}
+
+.help{
+    background: rgb(244,174,9);
+    background: linear-gradient(90deg, rgba(244,174,9,1) 4%, rgba(222,0,255,0.8743872549019608) 100%);
+    height: 180px;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+
+.help .card{
+    width: 300px;
+    margin-left: 100px;
+}
+
+.help .card p{
+    font-size: small;
+}
+
+.about{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.1)), url(../images/map.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.about .boy img{
+    
+    border-color: red;
+    border-style: solid;
+    border-width: 0px 0px 8px 0px;
+}
+
+.about .txt{
+    width: 40%;
+    padding: 30px 10px 0px 100px;
+}
+
+.services{
+    height: 400px;
+    background-color: rgb(238, 232, 232, 0.3);
+}
+
+.services .txt{
+    height: 20%;
+    padding: 5px 0px 5px 97px;
+}
+
+.services .catalog{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 0px 70px 0px 90px;
+    margin: 0px;
+}
+.services .catalog .offer{
+    width: 25%;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    
+}
+.services .catalog #offer1{
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/usser.webp);
+    background-size: cover;
+}
+
+.services .catalog #offer2{
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/creat.jpeg);
+    background-size: cover;
+}
+
+.services .catalog h3{
+    font-weight: light;
+    background-color: white;
+    border-radius: 12px 0px 0px 12px;
+    border-color: rgb(202, 44, 44);
+    border-style: solid;
+    border-width: 2px;
+    margin: 160px 0px 0px 30px;
+    padding-left: 5px;
+    float: right;
+}
